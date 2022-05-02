@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    padding: 20px;
+    width: 60px;
+}
+
+.toggleNav {
+    display: none;
+    position: absolute;
+    background-color: rgba(111, 232, 81, 0.374)
+}
+
+
+.toggleNav a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+.navPanel:hover .toggleNav {
+    display: block;
+}
+
+.logo-image-wrapper {
+    width: 150px;
+}
+
+.logo-image-wrapper img{
+    width: 100%;
+}

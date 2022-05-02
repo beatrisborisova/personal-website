@@ -1,0 +1,21 @@
+.home-title {
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.image-wrapper {
+    width: 800px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
