@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 function Header() {
@@ -10,9 +10,9 @@ function Header() {
                     Menu
                 </div>
                 <nav className="toggleNav">
-                    <Link to='/'>Home</Link>
-                    <Link to='projects'>Projects</Link>
-                    <Link to='about'>About</Link>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='projects'>Projects</NavLink>
+                    <NavLink to='about'>About</NavLink>
                 </nav>
 
             </aside>

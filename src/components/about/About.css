@@ -1,0 +1,53 @@
+.contact-page {
+    padding: 30px;
+    margin: 15px auto;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.286);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
+    animation-name: contact;
+    animation-duration: 1s;
+}
+
+.personal-image-wrapper {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.personal-image-wrapper img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+ul .contacts-li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 30px;
+}
+
+ul .contacts-li a {
+    text-decoration: none;
+}
+
+ul .contacts-li #github {
+    color: #161B22;
+}
+
+ul .contacts-li #linkedin {
+    color: #0A66C2;
+}
+
+@keyframes contact {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

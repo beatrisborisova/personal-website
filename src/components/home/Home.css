@@ -4,18 +4,90 @@
 
 h1 {
     font-size: 40px;
+    color: #ffffff;
+    padding: 5px;
+    animation-name: title;
+    animation-duration: 1s;
 }
 
-.image-wrapper {
-    width: 800px;
-    bottom: 0;
+.custom-icon {
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
 }
 
-.image-wrapper img {
-    width: 100%;
+.custom-icon:nth-child(1) {
+    top: 160px;
+    bottom: 0;
+    left: 35%;
+    font-size: 200px;
+    animation-name: first;
+    animation-duration: 1s;
+    animation-delay: .002s;
+
 }
 
+.custom-icon:nth-child(2) {
+    top: 160px;
+    bottom: 0;
+    left: 47%;
+    font-size: 200px;
+    animation-name: second;
+    animation-duration: 1s;
+    animation-delay: .001s;
+}
+
+.custom-icon:nth-child(3) {
+    top: 160px;
+    bottom: 0;
+    left: 55%;
+    font-size: 200px;
+    animation-name: third;
+    animation-duration: 1s;
+}
+
+@keyframes title {
+    from {
+        opacity: 0;
+        background-color: #ffffff65;
+    }
+
+    to {
+        opacity: 1;
+        background-color: none;
+    }
+}
+
+@keyframes first {
+    from {
+        opacity: 0;
+        left: 0;
+    }
+
+    to {
+        opacity: 1;
+        left: 35%;
+    }
+}
+
+@keyframes second {
+    from {
+        opacity: 0;
+        left: 0;
+    }
+
+    to {
+        opacity: 1;
+        left: 47%;
+    }
+}
+
+@keyframes third {
+    from {
+        opacity: 0;
+        left: 0;
+    }
+
+    to {
+        opacity: 1;
+        left: 55%;
+    }
+}

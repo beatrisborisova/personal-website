@@ -1,6 +1,9 @@
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #ffffff52;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
+
 }
 
 aside {
@@ -8,10 +11,19 @@ aside {
     width: 60px;
 }
 
+.menu {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
 .toggleNav {
     display: none;
     position: absolute;
-    background-color: rgba(111, 232, 81, 0.374)
+    /* background-color: #9bd243cc; */
+    background-color: #9bd243;
+    width: 100px;
 }
 
 
@@ -20,6 +32,15 @@ aside {
     display: block;
     padding: 5px 15px;
     margin: 5px;
+}
+
+.toggleNav a.active {
+    background-color: rgba(255, 255, 255, 0.604);
+    color: #000000;
+}
+
+.toggleNav a:hover {
+    font-weight: bold;
 }
 
 .navPanel:hover .toggleNav {

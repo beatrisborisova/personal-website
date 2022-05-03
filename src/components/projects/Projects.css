@@ -1,0 +1,72 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    margin: 20px auto;
+    width: 240px;
+    height: 350px;
+    background-color: #ffffff2d;
+    color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
+    animation-name: cards;
+    animation-duration: 1s;
+}
+
+#info {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    background-color: #00000097;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+}
+
+.project-image-wrapper {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.project-image-wrapper img {
+    width: 100%;
+}
+
+.project:hover #info {
+    opacity: 0.3;
+}
+
+.show-more {
+    opacity: 0;
+    width: 140px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.project:hover .show-more {
+    opacity: 1;
+    background-color: #9CD243;
+    width: 200px;
+    transition: width .3s linear;
+}
+
+@keyframes cards {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
