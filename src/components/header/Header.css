@@ -34,7 +34,7 @@ aside {
     margin: 5px;
 }
 
-.toggleNav a.active {
+.toggleNav a.active, .toggleNav a:active {
     background-color: rgba(255, 255, 255, 0.604);
     color: #000000;
 }

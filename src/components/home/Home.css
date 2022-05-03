@@ -3,22 +3,27 @@
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     color: #ffffff;
     padding: 5px;
     animation-name: title;
     animation-duration: 1s;
+    margin-bottom: 0;
+}
+
+#author {
+    font-size: 25px;
 }
 
 .custom-icon {
     position: absolute;
+    top: 250px;
+    bottom: 0;
+    font-size: 150px;
 }
 
 .custom-icon:nth-child(1) {
-    top: 160px;
-    bottom: 0;
-    left: 35%;
-    font-size: 200px;
+    left: 40%;
     animation-name: first;
     animation-duration: 1s;
     animation-delay: .002s;
@@ -26,20 +31,14 @@ h1 {
 }
 
 .custom-icon:nth-child(2) {
-    top: 160px;
-    bottom: 0;
-    left: 47%;
-    font-size: 200px;
+    left: 50%;
     animation-name: second;
     animation-duration: 1s;
     animation-delay: .001s;
 }
 
 .custom-icon:nth-child(3) {
-    top: 160px;
-    bottom: 0;
     left: 55%;
-    font-size: 200px;
     animation-name: third;
     animation-duration: 1s;
 }
@@ -64,7 +63,7 @@ h1 {
 
     to {
         opacity: 1;
-        left: 35%;
+        left: 40%;
     }
 }
 
@@ -76,7 +75,7 @@ h1 {
 
     to {
         opacity: 1;
-        left: 47%;
+        left: 50%;
     }
 }
 
