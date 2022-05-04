@@ -4,13 +4,21 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function About() {
-    console.log('view changed');
     return (
         <div className="contact-page">
             <h2>About me</h2>
-            <p>
-                Hi, I'm Betty. Some cool text here. Some cool text here. Some cool text here. Some cool text here. Some cool text here. Some cool text here. Some cool text here. Some cool text here.
+            <p className='personal-intro'>
+                Hi, I'm Betty. I'm a Front-End developer interested in <b>React.js</b>.
             </p>
+            <div className='other-technologies'>
+                <p>Other technologies I'm experienced in:</p>
+                <ul className='other-skills-ul'>
+                    <li>JavaScript</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>Typescript</li>
+                    <li>Angular</li>
+                </ul>
+            </div>
             <div className="personal-image-wrapper">
                 <img src='personal-photo.jpg' alt='personal' />
             </div>

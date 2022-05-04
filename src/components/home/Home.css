@@ -90,3 +90,69 @@
         left: 55%;
     }
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 600px) {
+
+    #author {
+        color: #717171;
+    }
+
+    .home-title {
+        margin: 40px 10px 0 10px;
+    }
+
+    .custom-icon {
+        top: 370px;
+    }
+
+    .custom-icon:nth-child(1) {
+        left: 21%;
+
+    }
+
+    .custom-icon:nth-child(2) {
+        left: 45%;
+    }
+
+    .custom-icon:nth-child(3) {
+        left: 57%;
+    }
+
+    @keyframes first {
+        from {
+            opacity: 0;
+            left: 0;
+        }
+
+        to {
+            opacity: 1;
+            left: 21%;
+        }
+    }
+
+    @keyframes second {
+        from {
+            opacity: 0;
+            left: 0;
+        }
+
+        to {
+            opacity: 1;
+            left: 45%;
+        }
+    }
+
+    @keyframes third {
+        from {
+            opacity: 0;
+            left: 0;
+        }
+
+        to {
+            opacity: 1;
+            left: 57%;
+        }
+    }
+}

@@ -8,6 +8,26 @@
     animation-duration: 1s;
 }
 
+.personal-intro {
+    padding: 15px 0;
+}
+
+.other-skills-ul {
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.other-skills-ul li {
+    padding: 2px;
+}
+
+
+.other-technologies {
+    background-color: #9bd2437e;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
 .personal-image-wrapper {
     width: 150px;
     margin: 20px auto;
@@ -65,5 +85,14 @@ ul .contacts-li #mail {
 
     to {
         opacity: 1;
+    }
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 600px) {
+    .contact-page {
+        width: fit-content;
+        margin: 15px;
     }
 }
