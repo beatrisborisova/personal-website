@@ -9,6 +9,7 @@ import Projects from './components/projects/Projects'
 import About from './components/about/About';
 import Home from './components/home/Home';
 import NotFound from './components/not-found/NotFound';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         {/* <Route path='*' element={<Navigate to='/' />} /> */}
         <Route path='*' element={<NotFound />} />
       </Routes>
+
+      <Footer/>
     </div>
   );
 }

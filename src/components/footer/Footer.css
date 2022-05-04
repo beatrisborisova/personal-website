@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #6C737B;
+    font-size: 13px;
+}
+
+.made-with {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    color: #000000;
+    margin: 0 15px 0 0 ;
+    padding: 0;
+}
+
+.owner {
+    background-color: inherit;
+    color: #000000;
+    padding-top: 0;
+
+}
+
+.footer-image-wrapper {
+    width: 80px;
+}
+
+.footer-image-wrapper img {
+    width: 100%;
+}
