@@ -12,7 +12,7 @@ function Header() {
                 <nav className="toggleNav">
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='projects'>Projects</NavLink>
-                    <NavLink to='about'>About</NavLink>
+                    <NavLink to='about'>Contacts</NavLink>
                 </nav>
 
             </aside>

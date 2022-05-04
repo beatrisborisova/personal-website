@@ -30,8 +30,20 @@ ul .contacts-li {
     font-size: 30px;
 }
 
-ul .contacts-li a {
+ul .contacts-li a svg {
     text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 6px 8px;
+}
+
+ul .contacts-li a svg:hover {
+    color: #9CD243;
+    background-color: #00000064;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 6px 8px;
+
 }
 
 ul .contacts-li #github {
@@ -40,6 +52,10 @@ ul .contacts-li #github {
 
 ul .contacts-li #linkedin {
     color: #0A66C2;
+}
+
+ul .contacts-li #mail {
+    color: #743c08;
 }
 
 @keyframes contact {
