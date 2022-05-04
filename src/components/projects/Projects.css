@@ -19,6 +19,15 @@
     animation-duration: 1s;
 }
 
+.projects-main h1 {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 5px;
+    animation-name: title;
+    animation-duration: 1s;
+    margin-bottom: 0;
+}
+
 #info {
     margin: 0 auto;
 }
@@ -60,6 +69,19 @@ p {
     width: 200px;
     transition: width .3s linear;
 }
+
+@keyframes title {
+    from {
+        opacity: 0;
+        background-color: #ffffff65;
+    }
+
+    to {
+        opacity: 1;
+        background-color: none;
+    }
+}
+
 
 @keyframes cards {
     from {

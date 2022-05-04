@@ -3,7 +3,7 @@ import './Projects.css'
 function Projects() {
 
     return (
-        <div >
+        <div className='projects-main'>
             <h1>My projects</h1>
             <div className='projects-container'>
                 <a href="https://github.com/beatrisborisova/Books-Place" className="project">
