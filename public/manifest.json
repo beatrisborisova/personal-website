@@ -46,6 +46,11 @@
       "src": "music-player.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "comming-soon.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
