@@ -1,6 +1,10 @@
+/* .home-container {
+    position: relative;
+} */
+
 .home-title {
-    position: absolute;
-    top: 145px;
+    /* position: absolute; */
+    /* top: 145px; */
     width: 100%;
     margin: 0 auto;
 }
@@ -19,13 +23,13 @@
 }
 
 .custom-icon {
-    position: absolute;
-    top: 135px;
-    bottom: 0;
+    /* position: absolute; */
+    /* top: 135px; */
+    /* bottom: 0; */
     font-size: 150px;
 }
 
-.custom-icon:nth-child(1) {
+/* .custom-icon:nth-child(1) {
     left: 40%;
     animation-name: first;
     animation-duration: 1s;
@@ -92,18 +96,23 @@
         opacity: 1;
         left: 55%;
     }
-}
+} */
 
 /* RESPONSIVE */
 
 @media screen and (max-width: 600px) {
+
+    .home-title {
+        padding-top: 200px;
+        height: 100vh;
+    }
 
     #author {
         color: #717171;
     }
 
     .custom-icon {
-        top: 250px;
+        top: 350px;
     }
 
     .custom-icon:nth-child(1) {

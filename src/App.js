@@ -2,7 +2,6 @@ import './App.css';
 
 import Header from './components/header/Header';
 
-
 import { Routes, Route } from 'react-router-dom';
 
 import Projects from './components/projects/Projects'
@@ -12,8 +11,8 @@ import NotFound from './components/not-found/NotFound';
 import Footer from './components/footer/Footer';
 
 function App() {
-  return (
 
+  return (
     <div className="App">
 
       <Header />
@@ -26,7 +25,7 @@ function App() {
         <Route path='*' element={<NotFound />} />
       </Routes>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

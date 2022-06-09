@@ -96,11 +96,17 @@ p {
 /* RESPONSIVE */
 
 @media screen and (max-width: 600px) {
-    .show-more {
+
+
+    /* .show-more {
         opacity: 1;
         background-color: #9CD243;
         width: 200px;
         transition: width .3s linear;
+    } */
+
+    .content {
+        padding: 100px;
     }
 
     .projects-main {

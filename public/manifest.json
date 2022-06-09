@@ -56,6 +56,51 @@
       "src": "react.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "angular.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "css.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "sass.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "tailwind.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "nodejs.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "expressjs.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "typescript.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "javascript.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "mongo.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
