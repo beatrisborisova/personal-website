@@ -38,11 +38,11 @@ function Projects() {
                 </a>
                 <div className="project">
                     <div id='info'>
-                        <h3>ReactJS Application</h3>
+                        <h3>React.js Application</h3>
                         <div className="project-image-wrapper">
                             <img src='comming-soon.jpg' alt="comming-soon" />
                         </div>
-                        <p>A cool ReactJS application now in a process of developing.</p>
+                        <p>A cool React.js application now in a process of developing.</p>
                     </div>
                     {/* <div className='show-more'>View source code</div> */}
                 </div>
