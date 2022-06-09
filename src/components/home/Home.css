@@ -1,6 +1,7 @@
-/* .home-container {
-    position: relative;
-} */
+.home-container {
+    background-image: url('../../../public/background.jpeg');
+    background-size: cover;
+}
 
 .home-title {
     /* position: absolute; */

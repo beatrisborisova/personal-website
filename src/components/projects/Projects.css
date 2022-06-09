@@ -105,9 +105,6 @@ p {
         transition: width .3s linear;
     } */
 
-    .content {
-        padding: 100px;
-    }
 
     .projects-main {
         background: linear-gradient(132deg, rgba(20,25,34,1) 0%, rgba(44,53,69,1) 63%, rgba(60,71,86,0.9587185215883228) 100%);

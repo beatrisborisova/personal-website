@@ -32,7 +32,7 @@ function Projects() {
                         <div className="project-image-wrapper">
                             <img src='music-player.png' alt="project" />
                         </div>
-                        <p>Vanilla Javascript front-end application (SPA) for managing the music. </p>
+                        <p>Vanilla Javascript Front-End application (SPA) for managing the music. </p>
                     </div>
                     <div className='show-more'>View source code</div>
                 </a>

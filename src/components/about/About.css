@@ -1,7 +1,6 @@
 .contact-page {
     padding: 30px;
     margin: 15px auto;
-    width: 700px;
     background-color: rgba(255, 255, 255, 0.286);
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
     animation-name: contact;
@@ -10,6 +9,11 @@
 
 .personal-intro {
     padding: 15px 0;
+}
+
+.personal-intro-more-info p {
+    text-align: left;
+    padding:  0 20px 15px 20px;
 }
 
 .other-skills-ul {
