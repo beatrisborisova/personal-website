@@ -20,4 +20,8 @@ body {
   body {
     background-size: auto;
   }
+
+  .content {
+    height: fit-content;
+  }
 }
