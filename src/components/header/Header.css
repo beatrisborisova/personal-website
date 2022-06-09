@@ -9,6 +9,10 @@
     width: 100%;
 }
 
+.menu {
+    display: none;
+}
+
 .nav-content {
     display: flex;
     /* background-color: #9bd243cc; */
@@ -61,4 +65,13 @@
         display: flex;
     }
 
+    .menu {
+        display: block;
+        background-color: #9bd243ec;
+        margin: 0 auto;
+        width: 100%;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 18px;
+    }
 }

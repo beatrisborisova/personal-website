@@ -8,6 +8,7 @@
     /* top: 145px; */
     width: 100%;
     margin: 0 auto;
+    padding-top: 80px;
 }
 
 .home-title h1 {
@@ -104,7 +105,7 @@
 @media screen and (max-width: 600px) {
 
     .home-title {
-        padding-top: 200px;
+        padding-top: 100px;
         height: 100vh;
     }
 
