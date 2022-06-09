@@ -4,8 +4,8 @@
 }
 
 .home-title {
-    /* position: absolute; */
-    /* top: 145px; */
+    position: absolute;
+    top: 100px;
     width: 100%;
     margin: 0 auto;
     padding-top: 80px;
@@ -25,13 +25,13 @@
 }
 
 .custom-icon {
-    /* position: absolute; */
-    /* top: 135px; */
-    /* bottom: 0; */
+    position: absolute;
+    top: 200px;
+    bottom: 0;
     font-size: 150px;
 }
 
-/* .custom-icon:nth-child(1) {
+ .custom-icon:nth-child(1) {
     left: 40%;
     animation-name: first;
     animation-duration: 1s;
@@ -98,7 +98,7 @@
         opacity: 1;
         left: 55%;
     }
-} */
+} 
 
 /* RESPONSIVE */
 
@@ -114,7 +114,7 @@
     }
 
     .custom-icon {
-        top: 350px;
+        top: 200px;
     }
 
     .custom-icon:nth-child(1) {
