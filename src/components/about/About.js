@@ -37,14 +37,15 @@ function About() {
                     </ul>
                 </div>
                 <div className='other-technologies'>
-                    <p>Other technologies I'm experienced in:</p>
+                    <p>Technologies I'm experienced in:</p>
                     <ul className='other-skills-ul'>
                         <li className='png-image-wrapper'><a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'><img src='js.png' alt='Javascript' /></a></li>
                         <li className='png-image-wrapper'><a href='https://developer.mozilla.org/en-US/docs/Web/CSS'><img src='css.png' alt='CSS' /></a></li>
                         <li className='png-image-wrapper'><a href='https://sass-lang.com/documentation/'><img src='sass.png' alt='SASS' /></a></li>
                         <li className='png-image-wrapper'><a href='https://tailwindcss.com/'><img src='tailwind.png' alt='Tailwind' /></a></li>
-                        <li className='png-image-wrapper'><a href='https://www.typescriptlang.org/docs/'><img src='typescript.png' alt='Typescript' /></a></li>
+                        <li className='png-image-wrapper'><a href='https://reactjs.org/'><img src='logo512.png' alt='React' /></a></li>
                         <li className='png-image-wrapper'><a href='https://angular.io/docs'><img src='angular.png' alt='Angular' /></a></li>
+                        <li className='png-image-wrapper'><a href='https://www.typescriptlang.org/docs/'><img src='typescript.png' alt='Typescript' /></a></li>
                         <li className='png-image-wrapper'><a href='https://nodejs.org/en/docs/'><img src='nodejs.png' alt='Node.js' /></a></li>
                         <li className='png-image-wrapper'><a href='https://expressjs.com/'><img src='expressjs.png' alt='Express.js' /></a></li>
                         <li className='png-image-wrapper'><a href='https://www.mongodb.com/docs/'><img src='mongodb.png' alt='MongoDB' /></a></li>
