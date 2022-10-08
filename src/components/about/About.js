@@ -9,7 +9,7 @@ function About() {
             <div className="content">
                 <h2>About me</h2>
                 <p className='personal-intro'>
-                    Hi, I'm Betty. I'm a Front&#8209;End Developer interested in <b>React.js and I'm currently working at Amdocs Bulgaria</b>.
+                    Hi, I'm Betty. I'm a Front&#8209;End Developer interested in <b>React.js</b> and I'm currently working at Amdocs Bulgaria.
                 </p>
                 <div className='personal-intro-more-info'>
                     <p>I started my jurney in programming two years ago and I found that Frond-End development makes me feel very exited.</p>
