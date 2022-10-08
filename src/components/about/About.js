@@ -9,12 +9,11 @@ function About() {
             <div className="content">
                 <h2>About me</h2>
                 <p className='personal-intro'>
-                    Hi, I'm Betty. I'm a Front&#8209;End Developer interested in <b>React.js</b>.
+                    Hi, I'm Betty. I'm a Front&#8209;End Developer interested in <b>React.js and I'm currently working at Amdocs Bulgaria</b>.
                 </p>
                 <div className='personal-intro-more-info'>
                     <p>I started my jurney in programming two years ago and I found that Frond-End development makes me feel very exited.</p>
-                    <p>Now I am at the final stage of my education at Software University for the JavaScript Web Development Track.</p>
-                    <p>I graduated Technical University Sofia and currently I'm working on my personal project with React.js.</p>
+                    <p>I finished Software University JavaScript Web Development Track and I graduated Technical University Sofia.</p>
                 </div>
 
                 <div className="personal-image-wrapper">
