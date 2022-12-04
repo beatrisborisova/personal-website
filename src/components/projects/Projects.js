@@ -16,7 +16,7 @@ function Projects() {
                         <div className="project-image-wrapper">
                             <img src='comming-soon.jpg' alt="comming-soon" />
                         </div>
-                        <p>A cool React.js application now in a process of developing.</p>
+                        <p>A cool React Native application now in a process of developing.</p>
                     </div>
                     {/* <div className='show-more'>View source code</div> */}
                 </div>
